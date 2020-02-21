@@ -1,5 +1,7 @@
 from files.read_input import *
+from files.crypt_one_base import *
 
-prom_text = read_input.text_to_array()
+d = crypt_one_base_dict
 
-print(prom_text)
+print(d)
+

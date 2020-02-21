@@ -1,29 +1,36 @@
+import math
+crypt_one_base_dict = {}
+
 
 class Crypt_One_Base:
 
-    a = 26-1*2
-    b = 26-2*2
-    c = 26-3*2
-    d = 26-4*2
-    e = 26-5*2
-    f = 26-6*2
-    g = 26-7*2
-    h = 26-8*2
-    i = 26-9*2
-    j = 26-10*2
-    k = 26-11*2
-    l = 26-12*2
-    m = 26-13*2
-    n = 26-14*2
-    o = 26-15*2
-    p = 26-16*2
-    q = 26-17*2
-    r = 26-18*2
-    s = 26-19*2
-    t = 26-20*2
-    u = 26-21*2
-    v = 26-22*2
-    w = 26-23*2
-    x = 26-24*2
-    y = 26-25*2
-    z = 26-26*2
+    a = round((26-1)**(math.sqrt(432)))
+    b = round((26-2)**(math.sqrt(432)))
+    c = round((26-3)**(math.sqrt(432)))
+    d = round((26-4)**(math.sqrt(432)))
+    e = round((26-5)**(math.sqrt(432)))
+    f = round((26-6)**(math.sqrt(432)))
+    g = round((26-7)**(math.sqrt(432)))
+    h = round((26-8)**(math.sqrt(432)))
+    i = round((26-9)**(math.sqrt(432)))
+    j = round((26-10)**(math.sqrt(432)))
+    k = round((26-11)**(math.sqrt(432)))
+    l = round((26-12)**(math.sqrt(432)))
+    m = round((26-13)**(math.sqrt(432)))
+    n = round((26-14)**(math.sqrt(432)))
+    o = round((26-15)**(math.sqrt(432)))
+    p = round((26-16)**(math.sqrt(432)))
+    q = round((26-17)**(math.sqrt(432)))
+    r = round((26-18)**(math.sqrt(432)))
+    s = round((26-19)**(math.sqrt(432)))
+    t = round((26-20)**(math.sqrt(432)))
+    u = round((26-21)**(math.sqrt(432)))
+    v = round((26-22)**(math.sqrt(432)))
+    w = round((26-23)**(math.sqrt(432)))
+    x = round((26-24)**(math.sqrt(432)))
+    y = round((26-25)**(math.sqrt(432)))
+    z = round((26-26)**(math.sqrt(432)))
+
+    crypt_one_base_dict.update([("a", a), ("b", b), ("c", c), ("d", d), ("e", e), ("f", f), ("g", g), ("h", h), ("i", i)
+                                , ("j", j), ("k", k), ("l", l),("m", m), ("n", n), ("o", o), ("p", p), ("q", q), ("r", r)
+                                , ("s", s), ("t", t), ("u", u), ("v", v), ("w", w), ("x", x), ("y", y), ("z", z)])
