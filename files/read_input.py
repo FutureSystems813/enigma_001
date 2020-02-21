@@ -2,7 +2,7 @@ from files.filehandler import *
 
 user_in = filehandler.get_array()
 
-
+# make the file content save
 class ReadInput:
 
     def __init__(self, raw_text):
